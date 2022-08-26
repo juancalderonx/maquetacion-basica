@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    height: 10vh;
+    background-color: aqua;
+}
+
+figure , nav {
+    display: inline-block;
+}
+
+figure {
+    margin: 1rem;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+nav {
+    position: absolute;
+    right: 2rem;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: bisque;
+}
+
+aside, section {
+    display: inline-block;
+    height: 80vh;
+}
+
+aside {
+    width: 20vw;
+    background-color: blueviolet;
+}
+
+aside div {
+    height: 15vh;
+    margin: 3vh;
+    background-color: crimson;
+}
+
+section {
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    padding: 1rem;
+    background-color: darkblue;
+}
+
+.footer-social, .footer-info {
+    display: inline-block;
+    margin: 1rem;
+}
+  
+.footer-info {
+    position: absolute;
+    right: 1.5rem;
+}
